@@ -3,8 +3,8 @@
 
 module.exports = function towelSort (matrix) {
     let new_array = [];
-    for(i=0;i<array.length;i++)
-            for(j=0;j<array[i].length;j++)
-                    new_array += array[i][j] + ' ';
+    for(i=0;i<matrix.length;i++)
+            for(j=0;j<matrix[i].length;j++)
+                    new_array += matrix[i][j] + ' ';
   return new_array;
 }
